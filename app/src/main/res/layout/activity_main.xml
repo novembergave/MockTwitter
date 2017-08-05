@@ -11,32 +11,38 @@
         android:orientation="vertical">
 
         <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
 
             <android.support.design.widget.TabItem
+                android:id="@+id/tab_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_home_black_24dp" />
 
             <android.support.design.widget.TabItem
+                android:id="@+id/tab_search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_search_black_24dp" />
 
             <android.support.design.widget.TabItem
+                android:id="@+id/tab_alerts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_notifications_black_24dp" />
 
             <android.support.design.widget.TabItem
+                android:id="@+id/tab_messages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_email_black_24dp" />
         </android.support.design.widget.TabLayout>
 
         <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
@@ -44,6 +50,7 @@
     </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_action_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
